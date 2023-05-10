@@ -4,22 +4,6 @@ layout: default
 custom-foot: js/item-js.html
 gallery: true
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/uv.css"/>
-<script src="https://cdn.jsdelivr.net/npm/universalviewer@4.0.0/dist/umd/UV.js"></script>
-<style>
-#uv {
-    width: 924px;
-    height: 668px;
-}
-</style>
-<div class="uv" id="uv"></div>
-<script>
-const data = {
-    manifest: "https://wellcomelibrary.org/iiif/b18035723/manifest"
-};
-uv = UV.init("uv", data);
-</script>
-#
 <div class="container mt-2 mb-4">
     <ul class="breadcrumb h6">
         <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
